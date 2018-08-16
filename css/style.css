@@ -1,0 +1,169 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Patua One', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444452;
+  line-height: 1.8em;
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+
+header {
+  margin: 0 auto;
+  padding: 5vh 10vw 5vh 10vw;
+  background-color: #212121;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name-logo {
+  font-family: 'Patua One', cursive;
+  font-size: 3vw;
+  letter-spacing: 0em;
+  color: #C2185B;
+}
+
+.hero-content {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  line-height: 2.5em;
+}
+
+.my-name {
+  font-weight: bolder;
+}
+
+.emoji {
+  width: 40px;
+  animation: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.section {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #C2185B;
+}
+
+.skill-category-label {
+  display: inline-block;
+  padding-right: 60px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.category-label {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.section-content {
+  padding: 20px;
+  /* font-size: 20px; */
+  font-weight: 700px;
+}
+
+.section-category {
+  padding-bottom: 80px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  font-weight: 300;
+  display: list-item;
+  font-size: 0.9em;
+}
+
+p{
+  margin-top: 0px;  
+  /* font-size: 0.9em; */
+}
+
+.sub-experience{
+  margin-bottom: 15px;
+}
+
+.duration {
+  font-family: 'Inconsolata', monospace;
+}
+
+.company-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;  
+}
+
+.duration, .company-name, .role {  
+  font-size: 0.9em;
+}
+
+.used-tools {
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+  border: 0.6px solid #C2185B;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+  list-style-type: none;
+  /* box-shadow: 2px 2px 5px #a1a1a1; */
+  text-align: center;
+  font-size: 0.8em;
+}
+
+
+
+@media screen and (max-width: 550px){
+  body {
+    text-align: center;
+  }
+
+  .skill-category-label{
+    padding-right: 0px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #name-logo {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  
+}
+
+@media screen and (min-width: 1024px){
+  header {
+    /* padding: 40px; */
+  }
+} 
+
+@media screen and (min-width: 768px){
+  .duration, .company-name {
+    display: inline-block;
+  }
+  .duration {
+    float: right;
+  }
+
+}
+
