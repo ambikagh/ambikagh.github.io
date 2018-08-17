@@ -128,7 +128,17 @@ p{
   font-size: 0.8em;
 }
 
-
+.project1 {
+  font-weight: 700;
+  color: #C2185B;
+}
+.hydrate {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
 @media screen and (max-width: 550px){
   body {
